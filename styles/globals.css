@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    font-size: 16px;
+}
+
+
+/* styles/global.css */
+/* Ensure you include this in your Tailwind config or global styles */
+.scrollbar-always-visible {
+    overflow-y: scroll; /* Ensures vertical scrollbar is always visible */
+    overflow-x: auto;   /* Adjust horizontal overflow as needed */
+    scrollbar-width: auto; /* For Firefox */
+}
+
+/* For Chrome, Edge, Safari */
+.scrollbar-always-visible::-webkit-scrollbar {
+    width: 12px; /* Adjust scrollbar width */
+}
+
+/* This keeps the scrollbar track always visible */
+.scrollbar-always-visible::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Customize track background */
+}
+
+/* Customize the scrollbar thumb */
+.scrollbar-always-visible::-webkit-scrollbar-thumb {
+    background: #888; /* Customize scrollbar thumb color */
+}
+
+.scrollbar-always-visible::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Change thumb color on hover */
+}
