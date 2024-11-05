@@ -1,0 +1,40 @@
+{
+    "name": "next-netlify-platform-starter",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint"
+    },
+    "dependencies": {
+        "@netlify/blobs": "^8.0.0",
+        "@netlify/plugin-nextjs": "^5.7.0",
+        "aos": "^2.3.4",
+        "blobshape": "^1.0.0",
+        "bright": "^0.8.5",
+        "markdown-to-jsx": "^7.4.5",
+        "next": "^15.0.0",
+        "nodemailer": "^6.9.14",
+        "react": "18.3.1",
+        "react-dom": "18.3.1",
+        "react-use-cart": "^1.14.0",
+        "sharp": "^0.33.5",
+        "transbank-sdk": "^5.0.0",
+        "unique-names-generator": "^4.7.1"
+    },
+    "devDependencies": {
+        "@svgr/webpack": "^8.1.0",
+        "autoprefixer": "^10.4.18",
+        "daisyui": "^4.12.8",
+        "eslint": "8.57.0",
+        "eslint-config-next": "14.2.5",
+        "file-loader": "^6.2.0",
+        "postcss": "^8.4.36",
+        "tailwindcss": "^3.4.1"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    }
+}

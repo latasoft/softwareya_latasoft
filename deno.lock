@@ -1,0 +1,38 @@
+{
+  "version": "3",
+  "remote": {
+    "https://edge.netlify.com/": "fd941d61d88673d5f28aab283fb86fcc50f08a3bc80ee5470498fcfa88c65cfb",
+    "https://edge.netlify.com/bootstrap/config.ts": "0aa0a225d978b89e0e62cbd853701605199e7a84095e55eeb70147faf1a24803",
+    "https://edge.netlify.com/bootstrap/context.ts": "f8392d0bfc4a345f0508157a9ed1a8b0ac832275e5ae6fe9301a8268fbfeb0b5",
+    "https://edge.netlify.com/bootstrap/cookie.ts": "8b0baae708989ca183c6f3b4ab3d029e6abcbc2e43f93edeb0ff447b3bbc3a05",
+    "https://edge.netlify.com/bootstrap/edge_function.ts": "b8253e86aa83c67341f5cfedeba5049d77fbf84dcab7eceff7566b7728ae9b39",
+    "https://edge.netlify.com/bootstrap/globals/types.ts": "a92107bafea2f88f9c7f787575732436abc40e45ccc062c76093096e7c34c84b"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@netlify/blobs@^8.0.0",
+        "npm:@netlify/plugin-nextjs@^5.6.0",
+        "npm:@svgr/webpack@^8.1.0",
+        "npm:aos@^2.3.4",
+        "npm:autoprefixer@^10.4.18",
+        "npm:blobshape@^1.0.0",
+        "npm:bright@^0.8.5",
+        "npm:daisyui@^4.12.8",
+        "npm:eslint-config-next@14.2.5",
+        "npm:eslint@8.57.0",
+        "npm:file-loader@^6.2.0",
+        "npm:markdown-to-jsx@^7.4.5",
+        "npm:next@14.2.5",
+        "npm:postcss@^8.4.36",
+        "npm:react-dom@18.3.1",
+        "npm:react-use-cart@^1.14.0",
+        "npm:react@18.3.1",
+        "npm:sharp@^0.33.5",
+        "npm:tailwindcss@^3.4.1",
+        "npm:transbank-sdk@^5.0.0",
+        "npm:unique-names-generator@^4.7.1"
+      ]
+    }
+  }
+}
