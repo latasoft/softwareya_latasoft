@@ -25,32 +25,7 @@ const nextConfig = {
   },
   
   // Redirect configuration
-  async redirects() {
-    return [
-      {
-        source: '/(.*)',
-        has: [
-          {
-            type: 'host',
-            value: 'www.softwareya.cl',
-          },
-        ],
-        destination: 'https://softwareya.cl/:path*',
-        permanent: true, // 301 redirect from www to non-www
-      },
-      {
-        source: '/(.*)',
-        has: [
-          {
-            type: 'host',
-            value: 'softwareya.cl',
-          },
-        ],
-        destination: 'https://www.softwareya.cl/:path*',
-        permanent: true, // Swap based on your preference
-      },
-    ];
-  },
+  
 };
 
 module.exports = nextConfig;
